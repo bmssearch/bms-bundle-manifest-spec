@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+
+  "type": "object",
+  "required": ["version", "timestamp", "updates"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": 1,
+      "description": "Bms Bundle Spec version"
+    },
+    "timestamp": {
+      "type": "integer",
+      "description": "current timestamp in millisec"
+    },
+    "bmses": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/updates_bms"
+      },
+      "description": "bmses which have been updated"
+    }
+  },
+
+  "definitions": {
+    "updates_bms": {
+      "type": "object",
+      "required": ["id", "url"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "domain scoped identifier"
+        },
+        "url": {
+          "type": "string",
+          "description": "spec url for the bms"
+        },
+        "group_id": {
+          "type": "string",
+          "description": "domain scoped identifier for the group"
+        },
+        "updated_at": {
+          "type": "integer",
+          "description": "timestamp in millisec"
+        }
+      }
+    }
+  }
+}

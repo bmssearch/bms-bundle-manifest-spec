@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+
+  "type": "object",
+  "required": ["version", "id", "name"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": 1,
+      "description": "Bms Bundle Spec version"
+    },
+    "id": {
+      "type": "string",
+      "description": "domain scoped identifier"
+    },
+    "name": {
+      "type": "string",
+      "description": "name"
+    },
+    "website_url": {
+      "type": "string",
+      "description": "website"
+    },
+    "updates_url": {
+      "type": "string",
+      "description": "spec url to check for updates on bmses in this group"
+    },
+    "bmses": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/group_bms"
+      },
+      "description": "bmses in this group"
+    }
+  },
+
+  "definitions": {
+    "group_bms": {
+      "type": "object",
+      "required": ["id", "url"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "domain scoped identifier"
+        },
+        "url": {
+          "type": "string",
+          "description": "spec url for the bms"
+        }
+      }
+    }
+  }
+}

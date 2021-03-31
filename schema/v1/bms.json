@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+
+  "type": "object",
+  "required": ["version", "id", "resources"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": 1,
+      "description": "Bms Bundle Spec version"
+    },
+    "id": {
+      "type": "string",
+      "description": "domain scoped identifier"
+    },
+    "website_url": {
+      "type": "string",
+      "description": "website"
+    },
+    "group_url": {
+      "type": "string",
+      "description": "spec url for the group to which this bms belongs"
+    },
+    "updates_url": {
+      "type": "string",
+      "description": "spec url to check for updates on this bms"
+    },
+    "resources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/bms_resource"
+      },
+      "description": "resources for this bms"
+    }
+  },
+
+  "definitions": {
+    "bms_resource": {
+      "type": "object",
+      "required": ["url", "type"],
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string",
+          "description": "url for the resource"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["core", "patch", "additional"],
+          "description": "core: the main bundle which includes sound sources. patch: files to be overwritten for modification. additional: additional resources such as new patterns."
+        },
+        "updated_at": {
+          "type": "integer",
+          "description": "timestamp in millisec"
+        },
+        "name": {
+          "type": "string",
+          "description": "short description for the resource"
+        }
+      }
+    }
+  }
+}
