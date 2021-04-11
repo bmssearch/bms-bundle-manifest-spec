@@ -1,5 +1,5 @@
 {
-  "$id": "https://bbm.bmssearch.net/schemas/v1/bms.json",
+  "$id": "https://bbm.bmssearch.net/schemas/v1/bms.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "bms",
 
