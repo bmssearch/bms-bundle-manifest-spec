@@ -1,0 +1,17 @@
+{
+  "name": "bms-bundle-manifest",
+  "version": "1.0.0",
+  "description": "Specification for manifests which describe resources related to BMS.",
+  "dependencies": {},
+  "devDependencies": {
+    "@adobe/jsonschema2md": "^6.0.0"
+  },
+  "scripts": {
+    "docs": "jsonschema2md -d schemas/v1 -o docs/v1 -x - -s nullablefact -s arrayfact -s definedinfact -s typesection -s typefact -s proptable"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmssearch/bms-bundle-manifest.git"
+  },
+  "license": "MIT"
+}

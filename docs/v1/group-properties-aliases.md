@@ -1,0 +1,11 @@
+# Untitled array in group Schema
+
+```txt
+https://bbm.bmssearch.net/schemas/v1/group.json#/properties/aliases
+```
+
+group manifests which can be treated as the same group
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                      |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------------------------ |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [group.schema.json*](../../schemas/v1/group.schema.json "open original schema") |

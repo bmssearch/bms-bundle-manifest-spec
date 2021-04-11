@@ -1,17 +1,30 @@
 {
+  "$id": "https://bbm.bmssearch.net/schemas/v1/bms.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "bms",
 
   "type": "object",
-  "required": ["version", "id", "resources"],
+  "required": ["version", "id", "title", "resources"],
   "additionalProperties": false,
   "properties": {
     "version": {
       "const": 1,
-      "description": "Bms Bundle Spec version"
+      "description": "Bms Bundle Manifest Spec version"
     },
     "id": {
       "type": "string",
       "description": "domain scoped identifier"
+    },
+    "title": {
+      "type": "string",
+      "description": "title"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/bms_alias"
+      },
+      "description": "bms manifests which can be treated as the same bms"
     },
     "website_url": {
       "type": "string",
@@ -35,7 +48,23 @@
   },
 
   "definitions": {
+    "bms_alias": {
+      "title": "alias",
+      "type": "object",
+      "required": ["domain", "id"],
+      "properties": {
+        "domain": {
+          "type": "string",
+          "description": "domain to which the alias manifest belongs"
+        },
+        "id": {
+          "type": "string",
+          "description": "domain scoped id of the alias manifest"
+        }
+      }
+    },
     "bms_resource": {
+      "title": "resource",
       "type": "object",
       "required": ["url", "type"],
       "additionalProperties": false,
