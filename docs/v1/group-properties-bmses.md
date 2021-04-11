@@ -1,7 +1,7 @@
 # Untitled array in group Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/group.json#/properties/bmses
+https://bbm.bmssearch.net/schemas/v1/group.schema.json#/properties/bmses
 ```
 
 bmses in this group

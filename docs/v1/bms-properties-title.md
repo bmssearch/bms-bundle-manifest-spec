@@ -1,7 +1,7 @@
 # Untitled string in bms Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/bms.json#/properties/title
+https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/properties/title
 ```
 
 title

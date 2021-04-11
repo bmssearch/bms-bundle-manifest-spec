@@ -1,7 +1,7 @@
 # Untitled undefined type in bms Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/bms.json#/properties/version
+https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/properties/version
 ```
 
 Bms Bundle Manifest Spec version

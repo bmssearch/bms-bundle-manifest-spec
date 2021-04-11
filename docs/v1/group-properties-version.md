@@ -1,7 +1,7 @@
 # Untitled undefined type in group Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/group.json#/properties/version
+https://bbm.bmssearch.net/schemas/v1/group.schema.json#/properties/version
 ```
 
 Bms Bundle Spec version

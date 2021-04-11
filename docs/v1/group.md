@@ -1,7 +1,7 @@
 # group Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/group.json
+https://bbm.bmssearch.net/schemas/v1/group.schema.json
 ```
 
 
@@ -85,7 +85,7 @@ bmses in this group
 Reference this group by using
 
 ```json
-{"$ref":"https://bbm.bmssearch.net/schemas/v1/group.json#/definitions/group_alias"}
+{"$ref":"https://bbm.bmssearch.net/schemas/v1/group.schema.json#/definitions/group_alias"}
 ```
 
 
@@ -111,7 +111,7 @@ domain scoped id of the alias manifest
 Reference this group by using
 
 ```json
-{"$ref":"https://bbm.bmssearch.net/schemas/v1/group.json#/definitions/group_bms"}
+{"$ref":"https://bbm.bmssearch.net/schemas/v1/group.schema.json#/definitions/group_bms"}
 ```
 
 

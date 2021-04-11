@@ -1,7 +1,7 @@
 # Untitled string in updates Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/updates.json#/definitions/updates_bms/properties/id
+https://bbm.bmssearch.net/schemas/v1/updates.schema.json#/definitions/updates_bms/properties/id
 ```
 
 domain scoped identifier

@@ -1,7 +1,7 @@
 # Untitled array in group Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/group.json#/properties/aliases
+https://bbm.bmssearch.net/schemas/v1/group.schema.json#/properties/aliases
 ```
 
 group manifests which can be treated as the same group

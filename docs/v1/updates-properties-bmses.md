@@ -1,7 +1,7 @@
 # Untitled array in updates Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/updates.json#/properties/bmses
+https://bbm.bmssearch.net/schemas/v1/updates.schema.json#/properties/bmses
 ```
 
 bmses which have been updated

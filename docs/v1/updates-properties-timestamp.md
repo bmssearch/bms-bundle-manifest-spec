@@ -1,7 +1,7 @@
 # Untitled integer in updates Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/updates.json#/properties/timestamp
+https://bbm.bmssearch.net/schemas/v1/updates.schema.json#/properties/timestamp
 ```
 
 current timestamp in millisec

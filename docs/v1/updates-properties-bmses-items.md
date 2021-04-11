@@ -1,7 +1,7 @@
 # Untitled object in updates Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/updates.json#/properties/bmses/items
+https://bbm.bmssearch.net/schemas/v1/updates.schema.json#/properties/bmses/items
 ```
 
 

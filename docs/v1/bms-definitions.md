@@ -1,7 +1,7 @@
 # Untitled undefined type in bms Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/bms.json#/definitions
+https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/definitions
 ```
 
 

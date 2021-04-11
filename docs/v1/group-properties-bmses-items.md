@@ -1,7 +1,7 @@
 # Untitled object in group Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/group.json#/properties/bmses/items
+https://bbm.bmssearch.net/schemas/v1/group.schema.json#/properties/bmses/items
 ```
 
 

@@ -1,7 +1,7 @@
 # Untitled undefined type in updates Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/updates.json#/properties/version
+https://bbm.bmssearch.net/schemas/v1/updates.schema.json#/properties/version
 ```
 
 Bms Bundle Spec version

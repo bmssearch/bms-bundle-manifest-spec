@@ -1,7 +1,7 @@
 # updates Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/updates.json
+https://bbm.bmssearch.net/schemas/v1/updates.schema.json
 ```
 
 
@@ -53,7 +53,7 @@ bmses which have been updated
 Reference this group by using
 
 ```json
-{"$ref":"https://bbm.bmssearch.net/schemas/v1/updates.json#/definitions/updates_bms"}
+{"$ref":"https://bbm.bmssearch.net/schemas/v1/updates.schema.json#/definitions/updates_bms"}
 ```
 
 

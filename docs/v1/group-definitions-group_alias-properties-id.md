@@ -1,7 +1,7 @@
 # Untitled string in group Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/group.json#/definitions/group_alias/properties/id
+https://bbm.bmssearch.net/schemas/v1/group.schema.json#/definitions/group_alias/properties/id
 ```
 
 domain scoped id of the alias manifest

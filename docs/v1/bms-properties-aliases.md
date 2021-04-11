@@ -1,7 +1,7 @@
 # Untitled array in bms Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/bms.json#/properties/aliases
+https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/properties/aliases
 ```
 
 bms manifests which can be treated as the same bms

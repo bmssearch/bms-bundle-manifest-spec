@@ -1,7 +1,7 @@
 # Untitled string in bms Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/bms.json#/definitions/bms_alias/properties/id
+https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/definitions/bms_alias/properties/id
 ```
 
 domain scoped id of the alias manifest

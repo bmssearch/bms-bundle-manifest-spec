@@ -1,7 +1,7 @@
 # Untitled string in group Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/group.json#/definitions/group_bms/properties/url
+https://bbm.bmssearch.net/schemas/v1/group.schema.json#/definitions/group_bms/properties/url
 ```
 
 spec url for the bms

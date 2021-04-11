@@ -1,7 +1,7 @@
 # bms Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/bms.json
+https://bbm.bmssearch.net/schemas/v1/bms.schema.json
 ```
 
 
@@ -93,7 +93,7 @@ resources for this bms
 Reference this group by using
 
 ```json
-{"$ref":"https://bbm.bmssearch.net/schemas/v1/bms.json#/definitions/bms_alias"}
+{"$ref":"https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/definitions/bms_alias"}
 ```
 
 
@@ -119,7 +119,7 @@ domain scoped id of the alias manifest
 Reference this group by using
 
 ```json
-{"$ref":"https://bbm.bmssearch.net/schemas/v1/bms.json#/definitions/bms_resource"}
+{"$ref":"https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/definitions/bms_resource"}
 ```
 
 

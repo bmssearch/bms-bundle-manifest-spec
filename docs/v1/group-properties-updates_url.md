@@ -1,7 +1,7 @@
 # Untitled string in group Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/group.json#/properties/updates_url
+https://bbm.bmssearch.net/schemas/v1/group.schema.json#/properties/updates_url
 ```
 
 spec url to check for updates on bmses in this group

@@ -1,7 +1,7 @@
 # resource Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/bms.json#/definitions/bms_resource
+https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/definitions/bms_resource
 ```
 
 

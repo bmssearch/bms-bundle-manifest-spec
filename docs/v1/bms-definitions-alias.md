@@ -1,7 +1,7 @@
 # alias Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/bms.json#/definitions/bms_alias
+https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/definitions/bms_alias
 ```
 
 

@@ -1,7 +1,7 @@
 # Untitled string in group Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/group.json#/definitions/group_alias/properties/domain
+https://bbm.bmssearch.net/schemas/v1/group.schema.json#/definitions/group_alias/properties/domain
 ```
 
 domain to which the alias manifest belongs

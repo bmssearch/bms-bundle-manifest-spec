@@ -1,7 +1,7 @@
 # Untitled string in bms Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/bms.json#/properties/group_url
+https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/properties/group_url
 ```
 
 spec url for the group to which this bms belongs
