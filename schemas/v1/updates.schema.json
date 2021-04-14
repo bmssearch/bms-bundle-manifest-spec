@@ -38,8 +38,11 @@
           "type": "string",
           "description": "spec url for the bms"
         },
-        "group_id": {
-          "type": "string",
+        "group_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
           "description": "domain scoped identifier for the group"
         },
         "updated_at": {
