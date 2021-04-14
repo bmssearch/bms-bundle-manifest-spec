@@ -1,7 +1,7 @@
 # Untitled integer in bms Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/bms.json#/definitions/bms_resource/properties/updated_at
+https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/definitions/bms_resource/properties/updated_at
 ```
 
 timestamp in millisec

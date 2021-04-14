@@ -1,10 +1,10 @@
-# Untitled string in bms Schema
+# Untitled array in bms Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/definitions/bms_alias/properties/domain
+https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/properties/group_urls
 ```
 
-domain to which the alias manifest belongs
+spec url for the group to which this bms belongs
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                  |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------------- |

@@ -1,5 +1,5 @@
 {
-  "name": "bms-bundle-manifest",
+  "name": "bms-bundle-manifest-spec",
   "version": "1.0.0",
   "description": "Specification for manifests which describe resources related to BMS.",
   "dependencies": {},

@@ -1,7 +1,7 @@
 # Untitled string in bms Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/bms.json#/definitions/bms_resource/properties/url
+https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/definitions/bms_resource/properties/url
 ```
 
 url for the resource

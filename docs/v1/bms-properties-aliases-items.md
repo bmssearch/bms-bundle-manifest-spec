@@ -1,7 +1,7 @@
 # Untitled object in bms Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/definitions/bms_alias
+https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/properties/aliases/items
 ```
 
 
@@ -10,7 +10,7 @@ https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/definitions/bms_alias
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [bms.schema.json*](../../schemas/v1/bms.schema.json "open original schema") |
 
-# bms_alias Properties
+# items Properties
 
 
 

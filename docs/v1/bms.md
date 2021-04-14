@@ -62,11 +62,11 @@ website
 
 *   is optional
 
-## group_url
+## group_urls
 
 spec url for the group to which this bms belongs
 
-`group_url`
+`group_urls`
 
 *   is optional
 

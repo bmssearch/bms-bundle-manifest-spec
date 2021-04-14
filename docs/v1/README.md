@@ -12,6 +12,14 @@
 
 ### Objects
 
+*   [Untitled object in bms](./bms-properties-aliases-items.md) – `https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/properties/aliases/items`
+
+*   [Untitled object in bms](./bms-properties-resources-items.md) – `https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/properties/resources/items`
+
+*   [Untitled object in bms](./bms-definitions-bms_alias.md) – `https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/definitions/bms_alias`
+
+*   [Untitled object in bms](./bms-definitions-bms_resource.md) – `https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/definitions/bms_resource`
+
 *   [Untitled object in group](./group-properties-aliases-items.md) – `https://bbm.bmssearch.net/schemas/v1/group.schema.json#/properties/aliases/items`
 
 *   [Untitled object in group](./group-properties-bmses-items.md) – `https://bbm.bmssearch.net/schemas/v1/group.schema.json#/properties/bmses/items`
@@ -24,17 +32,11 @@
 
 *   [Untitled object in updates](./updates-definitions-updates_bms.md) – `https://bbm.bmssearch.net/schemas/v1/updates.schema.json#/definitions/updates_bms`
 
-*   [alias](./bms-properties-aliases-alias.md) – `https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/properties/aliases/items`
-
-*   [alias](./bms-definitions-alias.md) – `https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/definitions/bms_alias`
-
-*   [resource](./bms-properties-resources-resource.md) – `https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/properties/resources/items`
-
-*   [resource](./bms-definitions-resource.md) – `https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/definitions/bms_resource`
-
 ### Arrays
 
 *   [Untitled array in bms](./bms-properties-aliases.md "bms manifests which can be treated as the same bms") – `https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/properties/aliases`
+
+*   [Untitled array in bms](./bms-properties-group_urls.md "spec url for the group to which this bms belongs") – `https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/properties/group_urls`
 
 *   [Untitled array in bms](./bms-properties-resources.md "resources for this bms") – `https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/properties/resources`
 

@@ -1,7 +1,7 @@
 # Untitled string in bms Schema
 
 ```txt
-https://bbm.bmssearch.net/schemas/v1/bms.json#/definitions/bms_resource/properties/type
+https://bbm.bmssearch.net/schemas/v1/bms.schema.json#/definitions/bms_resource/properties/type
 ```
 
 core: the main bundle which includes sound sources. patch: files to be overwritten for modification. additional: additional resources such as new patterns.

@@ -30,9 +30,12 @@
       "type": "string",
       "description": "website"
     },
-    "group_url": {
-      "type": "string",
-      "description": "spec url for the group to which this bms belongs"
+    "group_urls": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "spec urls for the group to which this bms belongs"
     },
     "updates_url": {
       "type": "string",
@@ -49,7 +52,6 @@
 
   "definitions": {
     "bms_alias": {
-      "title": "alias",
       "type": "object",
       "required": ["domain", "id"],
       "properties": {
@@ -64,7 +66,6 @@
       }
     },
     "bms_resource": {
-      "title": "resource",
       "type": "object",
       "required": ["url", "type"],
       "additionalProperties": false,
