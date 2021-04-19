@@ -60,7 +60,7 @@
     },
     "group_bms": {
       "type": "object",
-      "required": ["id", "url"],
+      "required": ["id", "manifest_url"],
       "additionalProperties": false,
       "properties": {
         "id": {
