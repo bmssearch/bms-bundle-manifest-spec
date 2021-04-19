@@ -30,16 +30,16 @@
       "type": "string",
       "description": "website"
     },
-    "group_urls": {
+    "group_manifest_urls": {
       "type": "array",
       "items": {
         "type": "string"
       },
-      "description": "spec urls for the group to which this bms belongs"
+      "description": "manifest urls for groups to which this bms belongs"
     },
-    "updates_url": {
+    "updates_manifest_url": {
       "type": "string",
-      "description": "spec url to check for updates on this bms"
+      "description": "manifest url to check for updates on this bms"
     },
     "resources": {
       "type": "array",

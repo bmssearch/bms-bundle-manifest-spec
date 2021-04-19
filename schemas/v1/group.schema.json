@@ -30,9 +30,9 @@
       "type": "string",
       "description": "website"
     },
-    "updates_url": {
+    "updates_manifest_url": {
       "type": "string",
-      "description": "spec url to check for updates on bmses in this group"
+      "description": "manifest url to check for updates on bmses in this group"
     },
     "bmses": {
       "type": "array",
@@ -67,9 +67,9 @@
           "type": "string",
           "description": "domain scoped identifier"
         },
-        "url": {
+        "manifest_url": {
           "type": "string",
-          "description": "spec url for the bms"
+          "description": "bmanifest url for the bms"
         }
       }
     }

@@ -4,16 +4,12 @@
   "title": "updates",
 
   "type": "object",
-  "required": ["version", "timestamp", "updates"],
+  "required": ["version", "updates"],
   "additionalProperties": false,
   "properties": {
     "version": {
       "const": 1,
       "description": "Bms Bundle Spec version"
-    },
-    "timestamp": {
-      "type": "integer",
-      "description": "current timestamp in millisec"
     },
     "bmses": {
       "type": "array",
@@ -27,16 +23,16 @@
   "definitions": {
     "updates_bms": {
       "type": "object",
-      "required": ["id", "url"],
+      "required": ["id", "manifest_url"],
       "additionalProperties": false,
       "properties": {
         "id": {
           "type": "string",
           "description": "domain scoped identifier"
         },
-        "url": {
+        "manifest_url": {
           "type": "string",
-          "description": "spec url for the bms"
+          "description": "manifest url for the bms"
         },
         "group_ids": {
           "type": "array",
