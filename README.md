@@ -49,7 +49,7 @@ BMS SEARCH venue は Bms Bundle Manifest を公開しています。
 
 - https://venue.bmssearch.net/bmsshuin3/1/manifest
 - https://venue.bmssearch.net/bmsshuin3/manifest
-- https://venue.bmssearch.net/updates_manifest?timestamp=1618498070417
+- https://venue.bmssearch.net/updates_manifest?from=1618498070417
 
 ## Contributing
 
