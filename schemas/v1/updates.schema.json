@@ -4,7 +4,7 @@
   "title": "updates",
 
   "type": "object",
-  "required": ["version", "updates"],
+  "required": ["version", "bmses"],
   "additionalProperties": false,
   "properties": {
     "version": {
