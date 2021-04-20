@@ -1,7 +1,5 @@
 # BMS Bundle Manifest Specfication (WIP)
 
-**まだ WIP なので、v1 ではありません、ご注意。**
-
 BMS のリソース情報を記述するマニフェスト仕様です。  
 JSON Schema で定義されています。
 
